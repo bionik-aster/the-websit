@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>Aster's Intro</title>
+  <style>
+    body {
+      font-family:'Poppins', sans-serif;
+      text-align:center;
+      background-color:Snow;
+    }
+    .georgia {
+      font-family:'Georgia', serif;
+    }
+    h1.lar {
+      font-size:65px;
+    }
+    h1 {
+      font-size:55px;
+    }
+    p {
+      font-size:35px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="lar">Hi, I'm <span style="color:yellow;">Aster</span>.</h1>
+  <p>I'm your local idiot with nothing special, really</p>
+  <p>You most likely got here from <span style="color:#1a75ff;">Discord</span>, right?</p>
+  <br>
+  <p>Well, lemme tell you something.<br><br><br>Touch some <span style="color:green;"><em>grass</em></span>.</p>
+  <br>
+  <br>
+  <br>
+  <p>Alright alright, here's a <strong>pRoPeR</strong> introduction for you.</p>
+  <button onclick="introFunction()" oncontextmenu="clearFunc1() id="intrBut">Click me</button>
+  <p id="intro"></p>
+  <button onclick="dateFunction()" oncontextmenu="clearFunc2()" id="dateBut">Get the time</button>
+  <p id="date"></p>
+</body>
+<script>
+  let dateVar = new Date()
+  function introFunction() {
+    document.getElementById("intro").innerHTML = "I'm a minor that kinda likes coding, is in the OSC, and invested in the current situation of the Planet Earth. (Not going well my fellows) Anyhow, yeah. Hope you enjoyed this mundane thing.";
+    document.getElementyId("intrBut").innerHTML = "Right click me to hide the intro"; 
+  }
+  function dateFunction() {
+    document.getElementById("date").innerHTML = dateVar;
+    document.getElementById("dateBut").innerHTML = "Right click me to hide the date";
+  }
+  function clearFunc1() {
+    document.getElementById("intro").innerHTML = "";
+    document.getElementyId("intrBut").innerHTML = "Click me";
+  }
+  function clearFunc2() {
+    document.getElementById("date").innerHTML = "";
+    document.getElementById("dateBut").innerHTML = "Get the time";
+  }
+</script>
+</html>
