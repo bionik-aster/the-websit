@@ -1,0 +1,55 @@
+body {
+  font-family:'Poppins', sans-serif;
+  text-align:center;
+  background-color:Snow;
+}
+.georgia {
+  font-family:'Georgia', serif;
+}
+h1.lar {
+  font-size:65px;
+}
+h1 {
+  font-size:55px;
+}
+p {
+      font-size:35px;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: tomato;
+}
+a:focus {
+  color: #ffcc00;
+}
+a:hover {
+  color: #ffcc66;
+}
+a:active {
+  color: #009900;
+}
+a.divi {
+	text-align:center;
+	color: #282828;
+	font-size:25px;
+}
+div {
+  transform: scale(1.3);
+	transition-duration: 0.5s;
+	transition-delay: 0.15s;
+	transition-property: transform, background;
+	background:#0066cc;
+	transition-timing-function: linear;
+}
+div.yt {
+  background: #ff0000;
+  text-align: center;
+  color: #282828;
+}
