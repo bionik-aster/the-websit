@@ -1,0 +1,38 @@
+body {
+  font-family:'Poppins', sans-serif;
+  text-align:center;
+  background-color:Snow;
+}
+.georgia {
+  font-family:'Georgia', serif;
+}
+h1.lar {
+  font-size:65px;
+}
+h1 {
+  font-size:55px;
+}
+p {
+      font-size:35px;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: tomato;
+}
+a:focus {
+  color: #ffcc00;
+}
+a:hover {
+  color: #ffcc66;
+}
+a:active {
+  color: #009900;
+}
+    
